@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Annotation.Class5"/>
+      <class name="Annotation.Class6"/>
+      <class name="Annotation.Class3"/>
+      <class name="Annotation.Class4"/>
+      <class name="Annotation.Class1"/>
+      <class name="Annotation.Class18"/>
+      <class name="Annotation.Class19"/>
+      <class name="Annotation.Class2"/>
+      <class name="Annotation.Class16"/>
+      <class name="Annotation.Class17"/>
+      <class name="Annotation.Class14"/>
+      <class name="Annotation.Class15"/>
+      <class name="Annotation.Class12"/>
+      <class name="Annotation.Class13"/>
+      <class name="Annotation.Class10"/>
+      <class name="Annotation.Class9"/>
+      <class name="Annotation.Class11"/>
+      <class name="Annotation.Class7"/>
+      <class name="Annotation.Class20"/>
+      <class name="Annotation.Class8"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

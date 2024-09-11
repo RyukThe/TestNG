@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[profile]]>
+    </line>
+    <line>
+      <![CDATA[settings]]>
+    </line>
+    <line>
+      <![CDATA[running method tc3]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-09T12:39:43 IST" name="Suite" finished-at="2023-01-09T12:39:43 IST" duration-ms="57">
+    <groups>
+      <group name="profile">
+        <method signature="class1.tc3()[pri:0, instance:grouping_of_test_cases.class1@bd4dc25]" name="tc3" class="grouping_of_test_cases.class1"/>
+        <method signature="class2.profile()[pri:0, instance:grouping_of_test_cases.class2@759d26fb]" name="profile" class="grouping_of_test_cases.class2"/>
+      </group> <!-- profile -->
+      <group name="setting">
+        <method signature="class2.setting()[pri:0, instance:grouping_of_test_cases.class2@759d26fb]" name="setting" class="grouping_of_test_cases.class2"/>
+      </group> <!-- setting -->
+    </groups>
+    <test started-at="2023-01-09T12:39:43 IST" name="Test" finished-at="2023-01-09T12:39:43 IST" duration-ms="57">
+      <class name="grouping_of_test_cases.class1">
+        <test-method signature="tc3()[pri:0, instance:grouping_of_test_cases.class1@bd4dc25]" started-at="2023-01-09T12:39:43 IST" name="tc3" finished-at="2023-01-09T12:39:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[running method tc3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- grouping_of_test_cases.class1 -->
+      <class name="grouping_of_test_cases.class2">
+        <test-method signature="profile()[pri:0, instance:grouping_of_test_cases.class2@759d26fb]" started-at="2023-01-09T12:39:43 IST" name="profile" finished-at="2023-01-09T12:39:43 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[profile]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- profile -->
+        <test-method signature="setting()[pri:0, instance:grouping_of_test_cases.class2@759d26fb]" started-at="2023-01-09T12:39:43 IST" name="setting" finished-at="2023-01-09T12:39:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[settings]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setting -->
+      </class> <!-- grouping_of_test_cases.class2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
